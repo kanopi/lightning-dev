@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "da0f892b3984c1625c905c4dffbbe8fd",
+    "content-hash": "d5c8f966b86a1496b286526c50d78d07",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -494,12 +494,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/minkphp/MinkSelenium2Driver.git",
-                "reference": "f4efaf52fed6a98bf6037a04f3fdef94dc0c8841"
+                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/f4efaf52fed6a98bf6037a04f3fdef94dc0c8841",
-                "reference": "f4efaf52fed6a98bf6037a04f3fdef94dc0c8841",
+                "url": "https://api.github.com/repos/minkphp/MinkSelenium2Driver/zipball/8684ee4e634db7abda9039ea53545f86fc1e105a",
+                "reference": "8684ee4e634db7abda9039ea53545f86fc1e105a",
                 "shasum": ""
             },
             "require": {
@@ -547,7 +547,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-07-23T10:51:47+00:00"
+            "time": "2018-10-10T12:39:06+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -3244,6 +3244,44 @@
                 "validator"
             ],
             "time": "2017-02-03T22:48:59+00:00"
+        },
+        {
+            "name": "enm1989/chromedriver",
+            "version": "2.45",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ENM1989/chromedriver.git",
+                "reference": "80564cbb6171d0d230adabf12af7cce88d28116c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ENM1989/chromedriver/zipball/80564cbb6171d0d230adabf12af7cce88d28116c",
+                "reference": "80564cbb6171d0d230adabf12af7cce88d28116c",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/chromedriver"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nico Müller",
+                    "email": "nico.mueller.1989@googlemail.com"
+                }
+            ],
+            "description": "Composer distribution of Chromedriver. Adds a executable to your composer bin directory.",
+            "homepage": "https://github.com/ENM1989/chromedriver",
+            "keywords": [
+                "Chromedriver",
+                "chrome",
+                "selenium",
+                "webdriver"
+            ],
+            "time": "2018-12-13T15:34:20+00:00"
         },
         {
             "name": "fabpot/goutte",
@@ -6200,16 +6238,16 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.15",
+            "version": "v3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "edda5a6155000ff8c3a3f85ee5c421af93cca416"
+                "reference": "7134b93e90ea7e7881fcb2da006d21b4c5f31908"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/edda5a6155000ff8c3a3f85ee5c421af93cca416",
-                "reference": "edda5a6155000ff8c3a3f85ee5c421af93cca416",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/7134b93e90ea7e7881fcb2da006d21b4c5f31908",
+                "reference": "7134b93e90ea7e7881fcb2da006d21b4c5f31908",
                 "shasum": ""
             },
             "require": {
@@ -6249,7 +6287,7 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2018-07-26T09:06:28+00:00"
+            "time": "2017-11-05T16:10:10+00:00"
         },
         {
             "name": "symfony/debug",
@@ -7933,27 +7971,27 @@
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/weitzman/drupal-test-traits.git",
-                "reference": "df90a3ea96d4060a31c0c2f27dab7935736f0693"
+                "reference": "1d4f83a2009d3ddb96219e4dfe4abcd3619ee93f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/weitzman%2Fdrupal-test-traits/repository/archive.zip?sha=df90a3ea96d4060a31c0c2f27dab7935736f0693",
-                "reference": "df90a3ea96d4060a31c0c2f27dab7935736f0693",
+                "url": "https://gitlab.com/api/v4/projects/weitzman%2Fdrupal-test-traits/repository/archive.zip?sha=1d4f83a2009d3ddb96219e4dfe4abcd3619ee93f",
+                "reference": "1d4f83a2009d3ddb96219e4dfe4abcd3619ee93f",
                 "shasum": ""
             },
             "require": {
                 "behat/mink": "^1.7",
                 "behat/mink-goutte-driver": "^1.2",
-                "behat/mink-selenium2-driver": "1.3.x-dev",
-                "dmore/chrome-mink-driver": "^2.6",
                 "php": ">=7.0.0",
                 "phpunit/phpunit": "^5.7|^6.5",
                 "webflo/drupal-finder": "^1.1"
             },
             "require-dev": {
+                "behat/mink-selenium2-driver": "1.3.x-dev",
                 "composer/installers": "^1.2",
+                "dmore/chrome-mink-driver": "^2.6",
                 "drupal-composer/drupal-scaffold": "2.3.0",
-                "drupal/core": "8.5.x-dev",
+                "drupal/core": "^8.6",
                 "drush/drush": "^9",
                 "jakub-onderka/php-parallel-lint": "^1.0",
                 "squizlabs/php_codesniffer": "^3.2"
@@ -7982,7 +8020,7 @@
                 }
             ],
             "description": "Traits for testing Drupal sites that have user content (versus unpopulated sites).",
-            "time": "2018-08-14T13:53:21+00:00"
+            "time": "2019-02-07T22:11:06+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -8735,8 +8773,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "behat/mink": 20,
-        "behat/mink-selenium2-driver": 20,
         "weitzman/drupal-test-traits": 20
     },
     "prefer-stable": true,
