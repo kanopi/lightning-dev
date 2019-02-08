@@ -1,5 +1,5 @@
 {
-    "name": "acquia/lightning_dev",
+    "name": "kanopi/lightning_dev",
     "description": "Internal development tools for Acquia Lightning.",
     "type": "drupal-module",
     "license": "GPL-2.0+",
